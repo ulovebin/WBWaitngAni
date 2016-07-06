@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "WBWaitingView.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    WBWaitingView *waiting=[[WBWaitingView alloc]init];
+    waiting.backViewColor=[UIColor blackColor];
+    waiting.alpha=0.6;
+    waiting.dotColor=[UIColor orangeColor];
+    [waiting showInView:self.view];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 @end

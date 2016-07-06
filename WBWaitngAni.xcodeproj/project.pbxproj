@@ -15,6 +15,7 @@
 		5749D7771D2CDB560025026A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5749D7751D2CDB560025026A /* LaunchScreen.storyboard */; };
 		5749D7821D2CDB560025026A /* WBWaitngAniTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5749D7811D2CDB560025026A /* WBWaitngAniTests.m */; };
 		5749D78D1D2CDB560025026A /* WBWaitngAniUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5749D78C1D2CDB560025026A /* WBWaitngAniUITests.m */; };
+		5749D79C1D2CDB860025026A /* WBWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5749D79B1D2CDB860025026A /* WBWaitingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5749D7881D2CDB560025026A /* WBWaitngAniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBWaitngAniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5749D78C1D2CDB560025026A /* WBWaitngAniUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBWaitngAniUITests.m; sourceTree = "<group>"; };
 		5749D78E1D2CDB560025026A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5749D79A1D2CDB860025026A /* WBWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBWaitingView.h; sourceTree = "<group>"; };
+		5749D79B1D2CDB860025026A /* WBWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBWaitingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				5749D76B1D2CDB560025026A /* AppDelegate.m */,
 				5749D76D1D2CDB560025026A /* ViewController.h */,
 				5749D76E1D2CDB560025026A /* ViewController.m */,
+				5749D79A1D2CDB860025026A /* WBWaitingView.h */,
+				5749D79B1D2CDB860025026A /* WBWaitingView.m */,
 				5749D7701D2CDB560025026A /* Main.storyboard */,
 				5749D7731D2CDB560025026A /* Assets.xcassets */,
 				5749D7751D2CDB560025026A /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5749D76F1D2CDB560025026A /* ViewController.m in Sources */,
+				5749D79C1D2CDB860025026A /* WBWaitingView.m in Sources */,
 				5749D76C1D2CDB560025026A /* AppDelegate.m in Sources */,
 				5749D7691D2CDB560025026A /* main.m in Sources */,
 			);
