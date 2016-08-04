@@ -1,8 +1,5 @@
 # WBWaitngAni
-今天逛简书看到一个动画效果，自己试着写了下也学会了些东西，现在做了简单的封装，方便下次直接使用。
-
-![图片](http://upload-images.jianshu.io/upload_images/1728983-0211f1e96ea892a6.jpg)
-**1、为表感谢在此列出[原文地址](http://www.jianshu.com/p/b660eb8b8bc1)**
+**1、为表感谢在此列出[原文地址](http://www.jianshu.com/p/4c34b42cf84f)**
 
 **2、这个是我自己封装控件的Git地址[WBWaitngAni](https://github.com/ulovebin/WBWaitngAni)**
 
